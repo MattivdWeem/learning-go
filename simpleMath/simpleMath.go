@@ -1,7 +1,11 @@
 package main
 
-
-import ("fmt"; "math"; "math/rand"; "time")
+import (
+	"fmt"
+	"math"
+	"math/rand"
+	"time"
+)
 
 func main(){
 	rand.Seed( time.Now().UTC().UnixNano())
@@ -10,6 +14,7 @@ func main(){
 	fmt.Println(plus(20,40))
 	fmt.Println(minus(40,20))
 	fmt.Println(math.Pi)
+	fmt.Println(doSomerandomMath())
 }
 
 
@@ -24,3 +29,8 @@ func plus(x int, y int) int {
 func minus(x int, y int) int {
 	return x - y
 }
+
+func doSomerandomMath() int{
+	return 1
+}
+
