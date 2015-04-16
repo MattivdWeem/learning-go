@@ -14,6 +14,9 @@
 #### Running your project
 `go run projectName`
 
+And ofcourse since go code gets compiled 
+`./projectName` 
+
 ### about go
 go's default io library = fmt
 go's way of saying you need this and that is import
