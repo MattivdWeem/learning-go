@@ -35,7 +35,7 @@ als no semicolon and bracket sugar
 
 ##### http calls? No problem
 
-`import nt/http`
+`import net/http`
 
 `http.Get("example.com")`
 
