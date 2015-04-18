@@ -8,21 +8,36 @@
 #### installing go
 `brew install go`
 
-#### compiling your project
-`go build`
-
 #### Running your project
 `go run projectName`
 
-And ofcourse since go code gets compiled 
+#### compiling your project
+`go build`
+
+#### now you can do `./` magic
 `./projectName` 
 
 ### about go
 go's default io library = fmt
+
 go's way of saying you need this and that is import
+
 All go files must be inside a package
 
 go devs are lazy and use func instead of function
 
 als no semicolon and bracket sugar
+
+
+
+#### More stuff i did actualy learn about go
+
+
+##### http calls? No problem
+
+`import net/http`
+
+`http.Get("example.com")`
+
+done!
 
