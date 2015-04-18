@@ -12,8 +12,8 @@ func main(){
 		fmt.Println("Hallo Go!");
 	}
 
-	somethingUsefull = [0,1,2,3,4,5,6,7,8,9]
-	for i :0; i< len(somethingUsefull); i++{
+	somethingUsefull := [5]float64{ 98, 93, 77, 82, 83 }
+	for i :0; i < len(somethingUsefull); i++ {
 		fmt.Println(somethingUsefull[i])
 	}
 
